@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Press+Start+2P&display=swap');
+
+body {
+    background-color: burlywood;
+}
+
+.heading {
+    text-align: center;
+}
+
+.playground-heading {
+    color: darkcyan;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 3rem;
+}
+
+
+.footer {
+    text-align: center;
+    font-family: "Libre Barcode 39 Text", system-ui;
+    font-size: 2rem;
+    color: cadetblue;
+}
+
+.main {
+    width: 55%;
+    border: 4px solid grey;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+#green {
+    border-color: green;
+}
+
+#blue {
+    border-color: blue;
+}
+
+#red {
+    border-color: red;
+}
